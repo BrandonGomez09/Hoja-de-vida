@@ -1,0 +1,60 @@
+
+body{
+    background-color: rgb(236, 230, 221);
+}
+h1{
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 64px;
+    text-align: center;
+    color: burlywood;
+    text-shadow: 4px 4px 5px black;
+}
+h2{
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(242, 216, 182);
+    text-shadow: 4px 4px 5px black;
+}
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.capital::first-letter{
+    color: burlywood;
+    font-size: 80px;
+    float: left;
+    background-color: brown;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+
+.italic{
+    font-style: italic
+}
+
+.border{
+    border: 6px dashed gray;
+    margin-top: 10%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    /*margin: 10% 15% 10% 15%; */
+}
+
+.profile{
+    width: 150px;
+    height: 150px;
+    position:fixed;
+    top: 0;
+    right: 0;
+    background-position: 50% 50%;
+    border-radius: 80%;
+}
